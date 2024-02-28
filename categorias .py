@@ -26,31 +26,7 @@ menu = dict({
                 {"nombre":"pan de avena integral","valor":6500},
                 {"nombre":"pan de molde integral","valor":7800},
                 ])
-                ([
+                ([])
     "panes especiales":{
-        "producto":list({})
+        "producto":list({}) }}}
 
-
-
-
-
-        ])
-    }])
-                ])
-        }
-    }
-    "
-})
-
-Pan de molde integral
-Otros panes especiales:
-Focaccia
-Ciabatta
-Pan de pita
-Bagel
-Pretzel
-Pan de maíz
-Pan de aceitunas
-Pan de ajo
-Pan de pasas y nueces
-Pan de cereales y frutos secos
