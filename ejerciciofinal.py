@@ -56,7 +56,7 @@ if categorial ==0:
     print("")
     dinero =int(input("¿cuanto dinero desea ingresar?"))
     vueltos =dinero - valor_1
-    print("")
+    
 
     if dinero >= valor_1:
         print(f"""tu cambio es ${vueltos}""")
@@ -95,21 +95,18 @@ elif categorial ==1:
     for i, val in enumerate(tortas):
         print(f""" {i}, {val} ${precios_3[i]}""")
     opcion =int(input())
-    print("")
     print(f"""has escogido la siguiente torta{tortas[opcion]}con un valor de ${precios_3[opcion]}""")
-    print("")
     print("cuantas porciones deseas")
-    print("")
+    
 
     cantidad_3 =int(input())
-    print("")
+    
     valor_3 =precios_3[opcion]*cantidad_3
     print("el valor total es de $", valor_3)
 
-    print("")
     dinero =int(input("ingresa el dinero: "))
     vueltos =dinero -valor_3
-    print("")
+    
 
     if dinero >= valor_3:
         print(f"""sus vuletas son ${vueltos}""")
@@ -144,26 +141,21 @@ elif categorial == 2:
      9000,
      12000,
      18000))
-    for i, val in enumerate("cafes"):
+    for i, val in enumerate(cafes):
           print(f""" {i}, {val} ${precios_2[i]}""") 
 opcion =int(input())
-print("")
-print(f"""has pedido lo siguiente {"cafes"[opcion]}con un valor de ${precios_2[opcion]}""")
-print("")
+print(f"""has pedido lo siguiente {cafes[opcion]}con un valor de ${precios_2[opcion]}""")
 print("¿cuantos cafes deseas?")
-print("")
 
 cantidad_2 =int(input())
-print("")
 valor_2 =precios_2[opcion]*cantidad_2
 print("el valor es $", valor_2)
 
-print("")
 dinero =int(input("ingrese el dinero: "))
 vueltos = dinero - valor_2
-print("")
+
 
 if dinero >= valor_2:
     print(f"""sus vueltos son ${vueltos}""")
 else:
-    print(f"""le falta un total de $ {-vueltos}""")
+    print(f"""le falta un total de $ {-vueltos} compra anulada""")
